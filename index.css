@@ -5,11 +5,6 @@
   padding: 0;
 }
 
-body {
-  height: 100%;
-  margin: 0%;
-}
-
 html {
   font-size: 68.5%;
 }
@@ -51,7 +46,7 @@ main .hero {
   max-height: fit-content;
 }
 
-.chicadoCard {
+.chicagoCard {
   background-image: url("./img/chicago.jpg");
 }
 
