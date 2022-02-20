@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 68.5%;
+}
+
+main {
+}
+
+main .hero {
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-image: url("./img/heroMobile.png");
+  background-size: cover;
+}
+
+main .hero .Darkmode {
+  position: relative;
+}
+
+main .hero button {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 999px;
+  background-color: #fff;
+
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+main .hero__search {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0px;
+  left: 0px;
+  width: 50%;
+  margin: 0 auto;
+  top: 100px;
+}
+
+main .hero__search input {
+  display: flex;
+  border: none;
+  padding: 16px 16px 16px 26px;
+  border-radius: 999px;
+  padding-left: 40px;
+}
+
+main .hero__search img {
+  position: absolute;
+  left: 10px;
+}
