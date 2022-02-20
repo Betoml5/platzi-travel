@@ -26,13 +26,13 @@
           <button
             class="absolute bg-white px-6 py-2 rounded-full right-16 top-6"
           >
-            <img src="./img/moon.png" alt="" />
+            <img src="./img/moon.svg" alt="" class="color-red-500" />
           </button>
 
           <div
-            class="flex justify-center w-3/4 p-5 rounded-full bg-white shadow-xl absolute top-36 left-1/2 rigth-1/2 transform -translate-x-1/2 -translate-y-1/2"
+            class="flex items-center justify-center w-3/4 p-5 rounded-full bg-white shadow-xl absolute top-36 left-1/2 rigth-1/2 transform -translate-x-1/2 -translate-y-1/2"
           >
-            <img src="./img/search.png" alt="" class="mr-6" />
+            <img src="./img/search.svg" alt="" class="mr-6" />
             <input
               type="text"
               placeholder="San francisco"
@@ -48,13 +48,46 @@
         </div>
       </section>
 
-      <nav
-        class="w-full flex items-center justify-evenly absolute bottom-0 py-6 border-t-1 border-color-white-500"
-      >
-        <img src="/img/home.png" alt="home" />
-        <img src="/img/search.png" alt="search" />
-        <img src="/img/heart.png" alt="like" />
-        <img src="/img/profile.png" alt="perfil" />
+      <section class="p-4 my-4">
+        <h3 class="font-semibold text-2xl my-4 text-primary-red">
+          Our recomendations
+        </h3>
+        <div class="flex gap-x-9 overflow-x-scroll overscroll-x-contain py-4">
+          <div class="flex flex-col card-min-width">
+            <img
+              src="./img/norway.jpg"
+              alt=""
+              class="w-full rounded-tr-xl rounded-tl-xl"
+            />
+            <div
+              class="text-white p-4 pb-16 rounded-br-xl rounded-bl-xl shadow-xl card-green"
+            >
+              <p class="font-semibold">Nordway</p>
+              <p>Beautiful landscapes</p>
+            </div>
+          </div>
+
+          <div class="flex flex-col card-min-width">
+            <img
+              src="./img/norway.jpg"
+              alt=""
+              class="w-full rounded-tr-xl rounded-tl-xl"
+            />
+            <div
+              class="text-white p-4 pb-16 rounded-br-xl rounded-bl-xl shadow-xl"
+            >
+              <p class="font-semibold text-primary-blue">New York</p>
+              <p class="text-primary-blue">Concrete jungle</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <nav class="w-full flex items-center justify-evenly absolute py-6">
+        <img src="/img/home.svg" alt="home" />
+        <img src="/img/search.svg" alt="search" />
+        <img src="/img/heart.svg" alt="like" />
+        <img src="/img/user.svg" alt="perfil" />
       </nav>
     </main>
   </body>

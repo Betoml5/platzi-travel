@@ -16,6 +16,7 @@ html {
 
 main {
   font-family: "Montserrat";
+  height: 100vh;
 }
 
 main .hero {
@@ -23,14 +24,31 @@ main .hero {
   height: 500px;
   background-repeat: no-repeat;
   object-fit: cover;
-  background-image: url("./img/heroMobile.png");
+  background-image: url("./img/sanFrancisco.jpg");
   background-size: cover;
 }
 
 @media (min-width: 768px) {
   main .hero {
-    background-image: url("./img/heroDesktop.png");
+    background-image: url("./img/sanFranciscoDesktop.jpg");
   }
+}
+
+.card-green {
+  background-color: #8fa206;
+}
+
+.text-primary-red {
+  color: #cc2d4a;
+}
+
+.text-primary-blue {
+  color: #61aec9;
+}
+
+.card-min-width {
+  min-width: 50%;
+  max-height: fit-content;
 }
 
 /* nav {
