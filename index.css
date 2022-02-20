@@ -51,6 +51,10 @@ main .hero {
   max-height: fit-content;
 }
 
+.chicadoCard {
+  background-image: url("./img/chicago.jpg");
+}
+
 /* nav {
   width: 100%;
   display: flex;
