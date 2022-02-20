@@ -4,21 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Platzi Travel</title>
   </head>
 
   <body>
     <main>
-      <section class="hero">
-        <div class="hero__Darkmode">
-          <button>
+      <section class="hero p-4 w-full">
+        <div class="relative max-w-xl mx-auto h-full">
+          <button
+            class="absolute bg-white px-6 py-2 rounded-full right-16 top-6"
+          >
             <img src="./img/moon.png" alt="" />
           </button>
-        </div>
-        <div class="hero__search">
-          <input type="text" placeholder="San francisco" />
-          <img src="./img/Shape.png" alt="" />
+
+          <div
+            class="flex justify-center w-3/4 p-5 rounded-full bg-white shadow-xl absolute top-36 left-1/2 rigth-1/2 transform -translate-x-1/2 -translate-y-1/2"
+          >
+            <img src="./img/Shape.png" alt="" class="mr-6" />
+            <input
+              type="text"
+              placeholder="San francisco"
+              class="flex outline-none bg-transparent items-center placeholder:text-left placeholder:text-xl"
+            />
+          </div>
+
+          <div
+            class="absolute left-1/2 rigth-1/2 transform -translate-x-1/2 bottom-20 bg-white px-12 py-4 rounded-full shadow-xl"
+          >
+            <p class="text-red-500 font-semibold text-xl">Explore More</p>
+          </div>
         </div>
       </section>
     </main>
