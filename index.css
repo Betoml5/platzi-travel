@@ -5,12 +5,18 @@
   padding: 0;
 }
 
+body {
+  height: 100%;
+  margin: 0%;
+}
+
 html {
   font-size: 68.5%;
 }
 
 main {
   font-family: "Montserrat";
+  display: flex;
 }
 
 main .hero {
@@ -26,4 +32,14 @@ main .hero {
   main .hero {
     background-image: url("./img/heroDesktop.png");
   }
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  bottom: 0;
+  padding: 20px 0;
+  border-top: 1px solid #d1d5db;
 }
