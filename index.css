@@ -50,6 +50,10 @@ main .hero {
   background-image: url("./img/chicago.jpg");
 }
 
+.aboutus li{
+  margin-bottom: 8px;
+}
+
 /* nav {
   width: 100%;
   display: flex;
