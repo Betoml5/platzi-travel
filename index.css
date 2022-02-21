@@ -42,13 +42,35 @@ main .hero {
 }
 
 .card-min-width {
-  min-width: 50%;
   max-height: fit-content;
+  min-width: 50%;
+  max-width: fit-content;
 }
 
 .aboutus li {
   margin-top: 8px;
   margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .card-min-width {
+    min-width: 25%;
+    max-width: 25%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-min-width {
+    min-width: 20%;
+    max-width: 15%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-min-width {
+    min-width: 15%;
+    max-width: 10%;
+  }
 }
 
 /* nav {
