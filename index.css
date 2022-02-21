@@ -64,6 +64,7 @@ main .hero {
     min-width: 20%;
     max-width: 15%;
   }
+
 }
 
 @media (min-width: 1440px) {
@@ -72,6 +73,7 @@ main .hero {
     max-width: 10%;
   }
 }
+
 
 /* nav {
   width: 100%;
