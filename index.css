@@ -46,17 +46,11 @@ main .hero {
   max-height: fit-content;
 }
 
-<<<<<<< HEAD
-.chicagoCard {
-  background-image: url("./img/chicago.jpg");
-}
-
-.aboutus li{
+.aboutus li {
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 
-=======
->>>>>>> a431d4ee7689fa17a9902c62aded4b209114217f
 /* nav {
   width: 100%;
   display: flex;
