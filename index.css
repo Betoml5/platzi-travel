@@ -46,10 +46,6 @@ main .hero {
   max-height: fit-content;
 }
 
-.chicagoCard {
-  background-image: url("./img/chicago.jpg");
-}
-
 /* nav {
   width: 100%;
   display: flex;
