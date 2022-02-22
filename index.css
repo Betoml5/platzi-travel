@@ -27,6 +27,7 @@ main .hero {
   main .hero {
     height: 580px;
     background-image: url("./img/sanFranciscoDesktop.jpg");
+    background-position: center;
   }
 }
 
