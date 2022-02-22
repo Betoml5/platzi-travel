@@ -26,8 +26,7 @@ main .hero {
 @media (min-width: 768px) {
   main .hero {
     height: 580px;
-    background-image: url("./img/Rectangle20.jpg");
-
+    background-image: url("./img/sanFranciscoDesktop.jpg");
   }
 }
 
@@ -35,11 +34,11 @@ main .hero {
   margin-left: 25px;
 }
 
-.nav_2 ul li{
+.nav_2 ul li {
   margin-right: 25px;
 }
 
-.nav_2 div img{
+.nav_2 div img {
   margin-right: 25px;
 }
 
@@ -78,7 +77,6 @@ main .hero {
     min-width: 20%;
     max-width: 15%;
   }
-
 }
 
 @media (min-width: 1440px) {
@@ -87,7 +85,6 @@ main .hero {
     max-width: 10%;
   }
 }
-
 
 /* nav {
   width: 100%;
