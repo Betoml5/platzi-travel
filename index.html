@@ -20,7 +20,7 @@
   </head>
 
   <body>
-    <main class="">
+    <main>
       <nav class="hidden lg:flex">
         <div
           class="max-w-[150rem] mx-auto nav_2 font-bold text-primary-red text-xl w-full flex items-center my-5"
@@ -34,16 +34,22 @@
           </ul>
           <div class="flex basis-1/4 justify-center">
             <img src="./img/search.svg" alt="" />
-            <img src="./img/moon.svg" alt="" />
+            <img
+              src="./img/moon.svg"
+              alt=""
+              id="btnDarkDesktop"
+              class="cursor-pointer"
+            />
             <img src="./img/user_icon.svg" alt="" />
           </div>
         </div>
       </nav>
 
-      <section class="hero p-4 w-full">
-        <div class="relative max-w-xl mx-auto h-full">
+      <section class="hero p-4 w-full lg:flex lg:justify-left lg:items-center">
+        <div class="relative max-w-xl mx-auto h-full lg:hidden">
           <button
-            class="absolute bg-white px-6 py-2 rounded-full right-16 top-6"
+            id="btnDarkMobile"
+            class="absolute bg-white px-6 py-2 rounded-full right-16 top-6 cursor-pointer"
           >
             <img src="./img/moon.svg" alt="" class="color-red-500" />
           </button>
@@ -64,6 +70,17 @@
           >
             <p class="text-red-500 font-semibold text-xl">Explore More</p>
           </div>
+        </div>
+
+        <div class="left-28 hidden lg:block lg:ml-20">
+          <h3 class="text-black font-bold text-5xl w-3/4">
+            Find More Locations like this
+          </h3>
+          <button
+            class="text-primary-red font-semibold px-14 py-4 bg-white rounded-full mt-8"
+          >
+            Explore More
+          </button>
         </div>
       </section>
 
@@ -276,7 +293,7 @@
         </div>
       </section>
 
-      <div class="px-4 text-primary-red border-b">
+      <div class="px-4 text-primary-red border-b" id="faq">
         <h3 class="text-4xl font-bold mt-12 mb-8">FAQs</h3>
         <div>
           <h4 class="text-2xl font-semibold my-5">Payment Methods</h4>
@@ -334,5 +351,6 @@
         <img src="/img/user.svg" alt="perfil" />
       </nav>
     </main>
+    <script src="./index.js"></script>
   </body>
 </html>

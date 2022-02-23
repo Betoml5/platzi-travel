@@ -87,6 +87,14 @@ main .hero {
   }
 }
 
+.darkBackground {
+  background-color: #1f2937;
+}
+
+.darkText {
+  color: #fff !important;
+}
+
 /* nav {
   width: 100%;
   display: flex;
